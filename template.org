@@ -1,0 +1,20 @@
+#+LATEX_CLASS: article
+#+OPTIONS: toc:nil
+#+LATEX_HEADER: \usepackage{fontspec}
+#+LATEX_HEADER: \usepackage{xunicode}
+#+LATEX_HEADER: \setmainfont{Times}
+#+LATEX_HEADER: \setmonofont[Scale=0.8]{Monaco}
+#+LATEX_HEADER: \setsansfont{Helvetica}
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \fancyhf{}
+#+LATEX_HEADER: \pagestyle{fancy}
+#+LATEX_HEADER: \rhead{Yummy Melon}
+##+LATEX_HEADER: \lhead{Some Paper Title I Made Up}
+#+LATEX_HEADER: \lfoot{\textcopyright~2019 Yummy Melon Software}
+#+LATEX_HEADER: \rfoot{\thepage}
+#+LATEX_HEADER: \usepackage{setspace}
+#+LATEX_HEADER: \onehalfspacing
+#+LATEX_HEADER: \usepackage{svg}
+#+LATEX_HEADER: \setlength{\parindent}{0in}
+#+LATEX_HEADER: \setlength{\parskip}{1em}
+#+LATEx_HEADER: \usepackage{listings}
