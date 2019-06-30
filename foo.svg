@@ -1,8 +1,8 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1"
- width="600px" height="78px"
- viewBox="0 0 600 78"
+ width="600px" height="106px"
+ viewBox="0 0 600 106"
  xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges"
  stroke-width="1" text-rendering="geometricPrecision">
 <polygon fill="white" points="144,7 154,7 154,16 144,16"/>
@@ -31,6 +31,14 @@ send something freaky
 <text x="233" y="60" textLength="133" font-family="Helvetica" font-size="12" fill="black">
 receive tat freaky answer
 </text>
-<line x1="150" y1="72" x2="150" y2="78" stroke="black"/>
-<line x1="450" y1="72" x2="450" y2="78" stroke="black"/>
+<line x1="150" y1="78" x2="150" y2="106" stroke="black"/>
+<line x1="450" y1="78" x2="450" y2="106" stroke="black"/>
+<line x1="450" y1="89" x2="150" y2="89" stroke="black" stroke-dasharray="2,2"/>
+<polygon fill="black" points="150,89 160,95 160,83"/>
+<polygon fill="white" points="241,79 358,79 358,88 241,88"/>
+<text x="242" y="88" textLength="115" font-family="Helvetica" font-size="12" fill="black">
+Some other response
+</text>
+<line x1="150" y1="100" x2="150" y2="106" stroke="black"/>
+<line x1="450" y1="100" x2="450" y2="106" stroke="black"/>
 </svg>

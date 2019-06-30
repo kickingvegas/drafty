@@ -1,22 +1,6 @@
-#+LATEX_CLASS: article
-#+OPTIONS: toc:nil
 #+TITLE: Some Paper Title I Made Up
 #+AUTHOR: Charles Y. Choi
-#+LATEX_HEADER: \usepackage{fontspec}
-#+LATEX_HEADER: \usepackage{xunicode}
-#+LATEX_HEADER: \setmainfont{Helvetica}
-#+LATEX_HEADER: \usepackage{fancyhdr}
-#+LATEX_HEADER: \fancyhf{}
-#+LATEX_HEADER: \pagestyle{fancy}
-#+LATEX_HEADER: \rhead{Yummy Melon}
-#+LATEX_HEADER: \lhead{Some Paper Title I Made Up}
-#+LATEX_HEADER: \lfoot{\textcopyright~2019 Yummy Melon Software}
-#+LATEX_HEADER: \rfoot{\thepage}
-#+LATEX_HEADER: \usepackage{setspace}
-#+LATEX_HEADER: \onehalfspacing
-#+LATEX_HEADER: \usepackage{svg}
-#+LATEX_HEADER: \setlength{\parindent}{0in}
-#+LATEX_HEADER: \setlength{\parskip}{1em}
+#+SETUPFILE: template.org
 
 This is what I really wanted but could not quite have, so there you are. These commands will only work for fancy and fancyplain. To customize LaTeX default style you need the fancyplainstyle command. See below for examples.
 
@@ -27,7 +11,11 @@ For a clean customization, we recommend you start from scratch. To do so you sho
 TBD.
 
 ** Background
+
 TBD.
+*** Another subsection
+
+Hi there Matthew. 
 
 * Headline 2
 
@@ -42,11 +30,13 @@ There is a mystery to this all and I'm still not quite sure that this is exactly
 | / | <>    | <           | >           |
 | # | Mary  | Jane        | Some detail |
 
+
 #+begin_src mscgen :filetype svg :file foo.svg
 msc {
   A,B;
   A -> B [ label = "send something freaky" ];
   A <- B [ label = "receive tat freaky answer" ];
+  A << B [ label = "Some other response"];
 }
 
 #+end_src
@@ -71,11 +61,36 @@ Also I want to know if ~a~, ~b~, and ~c~ are formatted correctly. And they are.
 Now all's I wants is to format code. But that's for another day. You have to clean up your house. Do this now.
 
  
+** Glossary
+- Bingo :: Bango
+- Sinchon :: Go go
+
+Also I wonder if numbered lists work this way too.
+
+1. Hi 
+1. There
+1. Brown
+1. Cow
+
+They do!
+
+
+#+BEGIN_SRC python :exports code
+
+  import os
+  import sys
+
+  def a(b):
+      return b + 224
+
+
+
+#+END_SRC
 
 
 
 
-
+\[ x^n + y^n = z^n \]
 
 
 
