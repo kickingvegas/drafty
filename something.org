@@ -1,0 +1,82 @@
+#+LATEX_CLASS: article
+#+OPTIONS: toc:nil
+#+TITLE: Some Paper Title I Made Up
+#+AUTHOR: Charles Y. Choi
+#+LATEX_HEADER: \usepackage{fontspec}
+#+LATEX_HEADER: \usepackage{xunicode}
+#+LATEX_HEADER: \setmainfont{Helvetica}
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \fancyhf{}
+#+LATEX_HEADER: \pagestyle{fancy}
+#+LATEX_HEADER: \rhead{Yummy Melon}
+#+LATEX_HEADER: \lhead{Some Paper Title I Made Up}
+#+LATEX_HEADER: \lfoot{\textcopyright~2019 Yummy Melon Software}
+#+LATEX_HEADER: \rfoot{\thepage}
+#+LATEX_HEADER: \usepackage{setspace}
+#+LATEX_HEADER: \onehalfspacing
+#+LATEX_HEADER: \usepackage{svg}
+#+LATEX_HEADER: \setlength{\parindent}{0in}
+#+LATEX_HEADER: \setlength{\parskip}{1em}
+
+This is what I really wanted but could not quite have, so there you are. These commands will only work for fancy and fancyplain. To customize LaTeX default style you need the fancyplainstyle command. See below for examples.
+
+For a clean customization, we recommend you start from scratch. To do so you should erase the current pagestyle. Providing empty values will make the field blank. 
+
+
+* Introduction
+TBD.
+
+** Background
+TBD.
+
+* Headline 2
+
+Yeah. don't quite get it.
+
+Okay so I get that you wanted to import and just hug me. I don't quite get why though.
+
+There is a mystery to this all and I'm still not quite sure that this is exactly what I'm looking for. That said, the mystery of doing this at all is still quite intriguing and compelling to me.
+
+|   | Field | Description | Details     |
+|---+-------+-------------+-------------|
+| / | <>    | <           | >           |
+| # | Mary  | Jane        | Some detail |
+
+#+begin_src mscgen :filetype svg :file foo.svg
+msc {
+  A,B;
+  A -> B [ label = "send something freaky" ];
+  A <- B [ label = "receive tat freaky answer" ];
+}
+
+#+end_src
+
+#+CAPTION: Sequence Diagram
+#+NAME: fig:foo.svg
+#+RESULTS:
+[[file:foo.svg]]
+
+Oh my gawd. It works! This thing really freaking works!  I'm kinda blown away by this. Also this took me an afternoon to figure out but this should last me a lifetime. I've figured out how to generate LaTeX from *org-mode*. Like look at this, figured out:
+
+- Headers and footers
+- SVG
+- Tables
+- Sections
+- TOC (or lack of it)
+- Font changing
+
+
+Also I want to know if ~a~, ~b~, and ~c~ are formatted correctly. And they are.  
+
+Now all's I wants is to format code. But that's for another day. You have to clean up your house. Do this now.
+
+ 
+
+
+
+
+
+
+
+
+

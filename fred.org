@@ -1,0 +1,39 @@
+#+STARTUP: inlineimages
+* Okay
+
+** What
+
+#+begin_src sh
+  ls 
+#+end_src 
+
+
+#+begin_src python
+  import os
+  import sys
+  import mistletoe
+
+  def a(z):
+      result = range(z)
+      return result
+  return list(a(33))
+
+#+end_src
+
+#+RESULTS:
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 |
+
+
+#+begin_src mscgen :filetype png :file foo.png
+msc {
+  A,B;
+  A -> B [ label = "send freaky" ];
+  A <- B [ label = "receive answer" ];
+}
+
+#+end_src
+
+#+RESULTS:
+[[file:foo.png]]
+[[file:foo.png]]
+
