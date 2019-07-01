@@ -1,2 +1,5 @@
 clean:
-	rm *.pdf *.html *.tex
+	- rm *.pdf
+	- rm *.html
+	- rm *.tex
+	- rm -rf svg-inkscape
