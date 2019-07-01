@@ -1,11 +1,10 @@
 #+TITLE: Some Paper Title I Made Up
 #+AUTHOR: Charles Y. Choi
-#+SETUPFILE: template.org
+#+SETUPFILE: configtex.org
 
 This is what I really wanted but could not quite have, so there you are. These commands will only work for fancy and fancyplain. To customize LaTeX default style you need the fancyplainstyle command. See below for examples.
 
 For a clean customization, we recommend you start from scratch. To do so you should erase the current pagestyle. Providing empty values will make the field blank. 
-
 
 * Introduction
 TBD.
